@@ -1,0 +1,18 @@
+[project]
+name = "researchflow"
+version = "0.1.0"
+description = "LangGraph terminal research workflow with version-bound human approval"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "langgraph>=1.0,<2", "langgraph-checkpoint-sqlite>=3,<4",
+  "langchain-openai>=1,<2", "pydantic>=2.8,<3", "rich>=13,<15",
+  "mcp>=1.27,<2", "httpx>=0.27,<1", "pymupdf>=1.26,<2",
+  "python-dotenv>=1,<2", "filelock>=3,<4", "beautifulsoup4>=4.12,<5",
+  "arxiv-mcp-server==0.7.2",
+]
+[dependency-groups]
+dev = ["ruff>=0.12"]
+[tool.ruff]
+line-length = 100
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

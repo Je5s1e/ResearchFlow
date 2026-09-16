@@ -1,0 +1,4 @@
+{
+  "arxiv": {"command": "arxiv-mcp-server", "args": ["--storage-path", "{session_dir}/cache/arxiv"]},
+  "scholar": {"command": "{python}", "args": ["-m", "researchflow.tools.scholar_server"]}
+}
