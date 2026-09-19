@@ -37,6 +37,6 @@ uv run python -m researchflow run --topic "调研近一年代码 Agent 的进展
 
 ## 示例运行视频
 
-<video controls preload="metadata" width="720" src="https://raw.githubusercontent.com/Je5s1e/ResearchFlow/main/sessions/20260919_152133_%E8%B0%83%E7%A0%94%E8%BF%91%E5%8D%8A%E5%B9%B4_Coding_agent_%E7%9A%84%E8%BF%9B%E5%B1%95_819b90cd/%E7%A4%BA%E4%BE%8B%E8%BF%90%E8%A1%8C%E8%A7%86%E9%A2%91.mp4">
-  当前环境不支持内嵌播放，请<a href="https://raw.githubusercontent.com/Je5s1e/ResearchFlow/main/sessions/20260919_152133_%E8%B0%83%E7%A0%94%E8%BF%91%E5%8D%8A%E5%B9%B4_Coding_agent_%E7%9A%84%E8%BF%9B%E5%B1%95_819b90cd/%E7%A4%BA%E4%BE%8B%E8%BF%90%E8%A1%8C%E8%A7%86%E9%A2%91.mp4">打开示例运行视频</a>。
+<video controls preload="metadata" width="720" src="https://private-user-images.githubusercontent.com/85332676/655060456-1f151865-5231-4683-b9b2-46fd1c8c77eb.mp4">
+  当前环境不支持内嵌播放，请<a href="https://github.com/Je5s1e/ResearchFlow/issues/1">打开 Issue #1 查看示例运行视频</a>。
 </video>
