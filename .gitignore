@@ -19,3 +19,5 @@ sessions/
 .vscode/
 
 /docs/
+
+tests/
