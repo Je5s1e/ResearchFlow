@@ -80,7 +80,29 @@ class SearchMCP:
                     "tool", {"server": source, "tool": tool, "args": args, "file": cache}
                 )
                 return data
-            except Exception:
+            except Exception as exc:
+                # The arXiv API intermittently rejects fielded/date-range
+                # queries with HTTP 406.  Retry once with its broadly
+                # compatible ``all:`` syntax and let the workflow's existing
+                # local date filter enforce the approved range.
+                if source == "arxiv" and "HTTP 406" in str(exc) and plan.get("date_from"):
+                    fallback_args = {
+                        # arXiv rejects spaces inside a single ``all:`` term;
+                        # use the first meaningful token for the compatibility
+                        # probe and rely on local relevance/date filtering.
+                        "query": f"all:{query.split()[-1]}",
+                        "max_results": min(limit, 50),
+                        "abstract_mode": "full",
+                    }
+                    if start:
+                        fallback_args["start"] = start
+                    try:
+                        data = await self.call(source, "search_papers", fallback_args)
+                        if isinstance(data, dict) and "papers" in data and data.get("status") not in ("error", "rate_limited"):
+                            self.store.event("warning", {"message": "arXiv 406；已使用 all: 查询并在本地按日期过滤", "args": fallback_args})
+                            return data
+                    except Exception:
+                        pass
                 if attempt == 2:
                     raise
                 await asyncio.sleep(3 * (attempt + 1))

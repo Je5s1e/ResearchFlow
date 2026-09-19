@@ -1,0 +1,155 @@
+{
+  "empty_pages": [],
+  "error": null,
+  "findings": [
+    {
+      "claim": "调查结果表明LLM被广泛采用且验证工作量大，同时两个年级组在约束密集场景下对LLM能力的感知存在差异。",
+      "offset": 0,
+      "page": 1,
+      "quote": "Survey results indicate widespread LLM adoption and substantial veriﬁcation effort, alongside cohort differences in perceived LLM capability for constraint-heavy scenarios."
+    },
+    {
+      "claim": "准实验进一步表明AI辅助改变了工作流结构，参与者常采用AI优先的任务进入、复制-转移集成和AI介导的调试，而非AI工作流更多依赖文档、先前模板和迭代试错精炼。",
+      "offset": 0,
+      "page": 1,
+      "quote": "The quasi-experiment further shows that AI assistance changes workﬂow structure. For example, participants frequently adopt AI-ﬁrst task entry, copy–transfer integration, and AI-mediated debugging, whereas non-AI workﬂows rely more on documentation, prior templates, and iterative trial–error reﬁnement."
+    },
+    {
+      "claim": "总体发现表明LLM辅助的收益取决于任务类型，并受专业知识和验证实践调节，而非仅由生成速度决定。",
+      "offset": 0,
+      "page": 1,
+      "quote": "Overall, our ﬁndings suggest that the beneﬁts of LLM assistance are task-dependent and mediated by expertise and veriﬁcation practices, rather than by generation speed alone."
+    },
+    {
+      "claim": "在“快速生成初稿”方面，LLM被列为更优的提及数为132（占84.08%），其中第四年为24（92.31%）。",
+      "offset": 36000,
+      "page": 7,
+      "quote": "Speed initial draft       LLM                132   84.08   108   82.44   24   92.31"
+    },
+    {
+      "claim": "在“领域规则/约束”方面，人类领域专家被列为更优的提及数为82（占52.23%），其中第四年为21（80.77%）。",
+      "offset": 36000,
+      "page": 7,
+      "quote": "Domain rules/constraints   Human domain expert  82   52.23  61   46.56  21   80.77"
+    },
+    {
+      "claim": "验证投入随编程熟练度略有增加（ρ = 0.21，p = 0.009）。",
+      "offset": 36000,
+      "page": 7,
+      "quote": "programming proﬁciency (ρ = 0.21, p = 0.009)."
+    }
+  ],
+  "limitations": [
+    "仅提取可复制文字；未进行 OCR、图片或图表理解。",
+    "文本块（页 [1, 2, 3]）：LLM评估可能因训练数据包含公开可用的编码问题和解决方案而存在数据污染风险，性能可能反映记忆或模式回忆而非真实问题解决能力。",
+    "文本块（页 [1, 2, 3]）：在复杂和开放式软件工程任务（COSTs）情境下，考察模型性能和开发者支持的研究仍然较少。",
+    "页 [1, 2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [1, 2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [3, 4, 5]）：目标人群仅限于斯里兰卡科伦坡大学计算学院（UCSC）的本科生，可能限制结论的普适性。",
+    "文本块（页 [3, 4, 5]）：准实验从一年级和四年级各选取 10 名参与者，样本量较小。",
+    "文本块（页 [3, 4, 5]）：实验任务未设置时间限制，可能与真实开发场景存在差异。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [5, 6, 7]）：四年级子样本规模较小（n = 26），相对于一年级子样本（n = 131），因此队列间比较只能作为提示性结果解读。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [7, 8, 9]）：本片段仅覆盖调查结果讨论与任务型准实验的部分内容（4.1.5—4.2.4节及表5、表6），缺少完整的方法、样本与统计检验前提说明，无法独立核验统计结论。",
+    "文本块（页 [7, 8, 9]）：偏好类结论来自对提及频次的统计（N/%及1Y/4Y分列），片段未说明各条目的分母来源与多重比较校正情况。",
+    "文本块（页 [7, 8, 9]）：质性行为结论基于少量标注参与者（如S02、S06、S10、S14等），片段未报告编码者间一致性或饱和性证据。",
+    "文本块（页 [7, 8, 9]）：部分引用跨越双栏排版的换行处，片段中文本存在栏间交错，个别结论的上下文完整性受限。",
+    "页 [7, 8, 9] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [7, 8, 9] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [9, 10, 11]）：参与者是来自单一机构的本科生，准实验样本小，限制普遍性。",
+    "文本块（页 [9, 10, 11]）：任务套件虽然跨越多个抽象层次，但不能代表工业软件工程的全部广度（如长期维护和团队协调）。",
+    "文本块（页 [9, 10, 11]）：视频转录和时间线构建使用工具/服务，可能引入潜在错误。",
+    "页 [9, 10, 11] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [9, 10, 11] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [9, 10, 11] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [9, 10, 11] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [9, 10, 11] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [11, 12]）：第二阶段采用准实验设计，并使用基于先前LLM经验和陈述偏好的目的性分组，因此组间差异可能反映预先存在的因素（如熟练度、工具流利度、动机），而不仅仅是AI可用性。",
+    "文本块（页 [11, 12]）：若干构念（如“AI素养”、验证努力和信心）通过自我报告测量，可能不完全匹配观察到的行为。",
+    "文本块（页 [11, 12]）：未来工作应使用更大、更多样化的人群进一步验证这些发现，并纳入更丰富的过程测量（如时间分配、测试工件和调试事件），以更好地解释AI辅助何时有帮助以及何时只是转移了努力。",
+    "页 [11, 12] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [11, 12] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [11, 12] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [11, 12] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [11, 12] 的一条摘录无法匹配原文，已丢弃对应结论。"
+  ],
+  "paper_id": "2609.04214",
+  "read_blocks": [
+    {
+      "offset": 0,
+      "page": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "offset": 12000,
+      "page": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "offset": 24000,
+      "page": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "offset": 36000,
+      "page": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "offset": 48000,
+      "page": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "offset": 60000,
+      "page": [
+        11,
+        12
+      ]
+    }
+  ],
+  "read_scope": "full_text",
+  "source_refs": [
+    {
+      "path": "papers/2609.04214_A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows.pdf",
+      "sha256": "e1c19af25a4afeebce25240ed08691258b61c829492f793a0564fac271da8ea3"
+    },
+    {
+      "path": "papers/2609.04214_A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows.json",
+      "sha256": "af3365defc416a0d3f9abe3f02a99855c0374501b677f5af21192ea95392e86c"
+    },
+    {
+      "path": "texts/2609.04214_A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows.pages.json",
+      "sha256": "bd7cf1e2143aced4f9b642c7dc2c9654ac7eb7f3cddaba608965d2bb13a50bfd"
+    },
+    {
+      "path": "texts/2609.04214_A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows.txt",
+      "sha256": "c848b14bd0318d11dc7d7e297d6204df70dc665a65b4707d7eb2f90906322d18"
+    }
+  ],
+  "title": "A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows"
+}

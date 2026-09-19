@@ -1,0 +1,109 @@
+{
+  "empty_pages": [],
+  "error": null,
+  "findings": [
+    {
+      "claim": "结果显示，使用基于 LLM 的摘要来分析 TAR 轨迹以规模化产出可解释的智能体行为定性评估是可行的。",
+      "offset": 24000,
+      "page": 4,
+      "quote": "The results illustrate the feasibility of using LLM-based summarization to analyze TAR trajectories to produce interpretable, qualitative evaluations of agent behavior at scale."
+    },
+    {
+      "claim": "跨模型分析中，时间与上下文验证被识别为最强的成功模式；Llama-3.3-70B通过先检查基础事实（日期、版本、CVE元数据）再深入代码分析而持续优于其他模型。",
+      "offset": 36000,
+      "page": 6,
+      "quote": "**Temporal and contextual verification** emerges as the strongest success pattern. Llama-3.3-70B consistently outperforms others by checking foundational facts first-dates, versions, CVE metadata-before diving into code analysis."
+    },
+    {
+      "claim": "决定性因素是分析纪律而非推理复杂性；Llama的70B参数通过更严格遵循验证协议（检查日期、版本、受影响文件和工具输出）胜过Qwen的235B，而非通过更深的推理链。",
+      "offset": 36000,
+      "page": 6,
+      "quote": "The decisive factor is **analytical discipline over reasoning sophistication**. Llama's 70B parameters outperform Qwen's 235B not through deeper reasoning chains, but through stricter adherence to verification protocols: check dates, check versions, check affected files, check tool outputs."
+    }
+  ],
+  "limitations": [
+    "仅提取可复制文字；未进行 OCR、图片或图表理解。",
+    "文本块（页 [1, 2]）：原文为双栏 PDF 的抽取文本，左右栏内容相互交错并夹带行号、断词与页码类残留（如“research2026”“Apr”），引用时按语义合并为连续文本，可能与原始排版字符序列不完全一致。",
+    "文本块（页 [1, 2]）：原文只呈现了第 1–2 页内容，第 5 条结论对应的文献基线语句在页面末尾被截断，无法获取其完整表述。",
+    "文本块（页 [1, 2]）：作者说明其论文选择并非穷尽或完全具有代表性（原文明确表示该选择“is not intended to be exhaustive or fully representative”），因此结论限于所分析的 18 篇论文范围。",
+    "文本块（页 [1, 2]）：本次笔记仅覆盖已提供的前两页文本，未读取后续章节与参考文献目录，无法评估文中给出的指南与案例研究结论。",
+    "页 [1, 2] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [1, 2] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [1, 2] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [1, 2] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [1, 2] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [2, 3] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 [3, 4, 5]）：本片段仅呈现一个案例研究，用于演示基于 LLM 摘要自动分析 TAR 轨迹的可行性，证据规模有限。",
+    "文本块（页 [3, 4, 5]）：该方法要求基线研究公开其 TAR 轨迹，文中称这是一项成本较高的要求。",
+    "文本块（页 [3, 4, 5]）：所引述的洞见来自对三个模型轨迹的具体分析示例，原文未在本片段给出量化指标或跨任务泛化验证。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [3, 4, 5] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "页 [5, 6, 7] 的一条摘录无法匹配原文，已丢弃对应结论。",
+    "文本块（页 7）：该片段为参考文献目录，不包含可提取的研究结论。"
+  ],
+  "paper_id": "2604.01437",
+  "read_blocks": [
+    {
+      "offset": 0,
+      "page": [
+        1,
+        2
+      ]
+    },
+    {
+      "offset": 12000,
+      "page": [
+        2,
+        3
+      ]
+    },
+    {
+      "offset": 24000,
+      "page": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "offset": 36000,
+      "page": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "offset": 48000,
+      "page": 7
+    }
+  ],
+  "read_scope": "full_text",
+  "source_refs": [
+    {
+      "path": "papers/2604.01437_Reproducible_ Explainable_ and Effective Evaluations of Agentic AI for Software Engineerin.pdf",
+      "sha256": "d1aaa8f2fca1e79a42c04c586a46f953c7c6a107588156558a555c91fee7cb13"
+    },
+    {
+      "path": "papers/2604.01437_Reproducible_ Explainable_ and Effective Evaluations of Agentic AI for Software Engineerin.json",
+      "sha256": "096903e209eb74808ffdc8564fa40f76cd805e2bede2bdaaffdf9602bfe22975"
+    },
+    {
+      "path": "texts/2604.01437_Reproducible_ Explainable_ and Effective Evaluations of Agentic AI for Software Engineerin.pages.json",
+      "sha256": "e82869db1860a96350f3227aadec061e3c36884587d9831b79925b8e32292755"
+    },
+    {
+      "path": "texts/2604.01437_Reproducible_ Explainable_ and Effective Evaluations of Agentic AI for Software Engineerin.txt",
+      "sha256": "64df08fcfbcbd7b8f33c9c1e9e80eed15e854b8b896c227e9318bcd638a79399"
+    }
+  ],
+  "title": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering"
+}

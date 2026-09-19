@@ -1,0 +1,288 @@
+{
+  "papers": [
+    {
+      "abstract": "Large Language Models (LLMs) are increasingly integrated into software development workflows, yet their effects are often discussed without distinguishing between task types, developer seniority, and verification demands. This paper presents a mixed-method empirical study of LLM-assisted software engineering with first-year and fourth-year undergraduates. Phase 1 is a preliminary survey (n=157) that characterizes LLM exposure, reliance, and trust calibration among the two groups. Phase 2 is a task-based quasi-experiment with a purposive sample from both cohorts (n=20). Here, we compare AI-assisted and non-AI conditions on a structured set of software engineering tasks spanning implementation, constraint-driven algorithm selection, and architectural reasoning. We then analyze performance outcomes alongside behavioral traces captured via screen recording and a qualitative coding process. Survey results indicate widespread LLM adoption and substantial verification effort, alongside cohort differences in perceived LLM capability for constraint-heavy scenarios. The quasi-experiment further shows that AI assistance changes workflow structure. For example, participants frequently adopt AI-first task entry, copy-transfer integration, and AI-mediated debugging, whereas non-AI workflows rely more on documentation, prior templates, and iterative trial-error refinement. Overall, our findings suggest that the benefits of LLM assistance are task-dependent and mediated by expertise and verification practices, rather than by generation speed alone.",
+      "arxiv_id": "2609.04214",
+      "authors": [
+        "Pamali D. Weerasinghe",
+        "Roshan N. Rajapakse",
+        "Isuru Dharmadasa",
+        "Chamath Keppitiyagama"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "download_url": "https://arxiv.org/pdf/2609.04214",
+      "id": "2609.04214",
+      "pdf_url": "https://arxiv.org/pdf/2609.04214",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-06-19",
+      "read_scope": "abstract",
+      "reason": "入选：混合方法实证研究 LLM 辅助软件工程工作流，覆盖实现、约束算法选择、架构推理等任务，分析 AI 辅助 vs 非 AI 的工作流差异与验证实践，与 Coding Agent 在 SE 任务中的人机协作和任务依赖性直接相关；国内属性需进一步核验，但主题契合度高。",
+      "selected": true,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "A Mixed-Method Empirical Study of LLM Assistance in Software Engineering Workflows",
+      "url": "https://arxiv.org/abs/2609.04214"
+    },
+    {
+      "abstract": "Research software collaborations span meetings, informal chats, pull requests, and GitHub issues. A decision surfaced in a Slack thread, refined in a meeting, and implemented in a pull request can lose its original rationale across these artifacts, leaving domain researchers and research software engineers with divergent mental models of project intent, ownership, and scientific assumptions. We argue that alignment in research software engineering is a continuous lifecycle problem, and that agentic AI can support stakeholder alignment and project-state tracking without replacing human decision-making. We present Aleena, an open-source lifecycle alignment agent that uses GitHub as a shared collaboration surface, transforming multi-modal stakeholder interactions into structured project records that surface risks, track open questions, and preserve decision continuity. Grounded in university-based research software engineering center experiences, this paper presents the motivating problem, system design, prototype, and illustrative lifecycle scenarios for Aleena.",
+      "arxiv_id": "2607.08043",
+      "authors": [
+        "Kshitij Dani",
+        "Cordero Core",
+        "Landung Setiawan",
+        "Carlos Garcia Jurado Suarez",
+        "Anshul Tambay",
+        "Vani Mandava",
+        "Anant Mittal"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2607.08043",
+      "pdf_url": "https://arxiv.org/pdf/2607.08043",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-07-09",
+      "read_scope": "abstract",
+      "reason": "排除：研究软件工程协作中的对齐 agent，侧重多模态利益相关者交互与项目状态跟踪，非代码智能体的系统架构、训练或 SWE 基准表现；国内属性不明显。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Aleena: Alignment Agent for Research Software Engineering Collaborations",
+      "url": "https://arxiv.org/abs/2607.08043"
+    },
+    {
+      "abstract": "With the advancement of Agentic AI, researchers are increasingly leveraging autonomous agents to address challenges in software engineering (SE). However, the large language models (LLMs) that underpin these agents often function as black boxes, making it difficult to justify the superiority of Agentic AI approaches over baselines. Furthermore, missing information in the evaluation design description frequently renders the reproduction of results infeasible. To synthesize current evaluation practices for Agentic AI in SE, this study analyzes 18 papers on the topic, published or accepted by ICSE 2026, ICSE 2025, FSE 2025, ASE 2025, and ISSTA 2025. The analysis identifies prevailing approaches and their limitations in evaluating Agentic AI for SE, both in current research and potential future studies. To address these shortcomings, this position paper proposes a set of guidelines and recommendations designed to empower reproducible, explainable, and effective evaluations of Agentic AI in software engineering. In particular, we recommend that Agentic AI researchers make their Thought-Action-Result (TAR) trajectories and LLM interaction data, or summarized versions of these artifacts, publicly accessible. Doing so will enable subsequent studies to more effectively analyze the strengths and weaknesses of different Agentic AI approaches. To demonstrate the feasibility of such comparisons, we present a proof-of-concept case study that illustrates how TAR trajectories can support systematic analysis across approaches.",
+      "arxiv_id": "2604.01437",
+      "authors": [
+        "Jingyue Li",
+        "André Storhaug"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "download_url": "https://arxiv.org/pdf/2604.01437",
+      "id": "2604.01437",
+      "pdf_url": "https://arxiv.org/pdf/2604.01437",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-04-01",
+      "read_scope": "abstract",
+      "reason": "入选：聚焦 Agentic AI 在软件工程中的可复现、可解释与有效评估，分析 ICSE/FSE/ASE/ISSTA 论文并提出 TAR 轨迹公开等指南，与 Coding Agent 评测方法、复现性问题直接相关；作者含 Jingyue Li，可能为国内关联学者，优先保留。",
+      "selected": true,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering",
+      "url": "https://arxiv.org/abs/2604.01437"
+    },
+    {
+      "abstract": "Qualitative analysis plays a pivotal role in understanding the human and social aspects of software engineering. However, it remains a demanding process shaped by the subjective interpretation of individual researchers and sensitive to methodological choices such as prompt design. Recent advancements in Large Language Models (LLMs) offer promising opportunities to support this type of analysis, although their reliability in reproducing human qualitative reasoning under varying prompting conditions remains largely untested. This study presents a controlled empirical evaluation of three LLMs -- Claude Haiku, DeepSeek-Chat, and Gemini 2.5 Flash -- across two prompt engineering strategies (zero-shot and multi-shot closed coding), using Cohen's kappa as the primary agreement metric over ten independent runs per configuration. Results suggest that multi-shot prompting significantly improves agreement for Claude Haiku (Delta kappa = +0.034, Wilcoxon p = 0.004) but not for DeepSeek-Chat or Gemini 2.5 Flash. Intra-model stability varies substantially -- DeepSeek-Chat and Claude Haiku exhibit the lowest variance (SD approx. 0.017), while Gemini 2.5 Flash is the least stable (SD = 0.038). A systematic over-prediction of \"Sharing Negative Feedback\" is identified across all models (bias ratios up to 5.25x), alongside consistent under-prediction of \"Expressing Concerns.\" Collectively, these findings provide empirical evidence for prompt engineering guidelines in LLM-assisted qualitative coding for software engineering research.",
+      "arxiv_id": "2605.07422",
+      "authors": [
+        "Moaath Alshaikh",
+        "Tasneem Alshaher",
+        "Ricardo Vieira",
+        "Beatriz Santana",
+        "Clelio Xavier",
+        "Jose Amancio",
+        "Glauco Carneiro",
+        "Julio Leite",
+        "Savio Freire",
+        "Manoel Mendonca"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2605.07422",
+      "pdf_url": "https://arxiv.org/pdf/2605.07422",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-05-08",
+      "read_scope": "abstract",
+      "reason": "排除：研究 LLM 辅助定性编码的提示工程，面向软件工程社区心理安全分析，与 Coding Agent 代码生成/修复/评测无直接关系。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Prompt Engineering Strategies for LLM-based Qualitative Coding of Psychological Safety in Software Engineering Communities: A Controlled Empirical Study",
+      "url": "https://arxiv.org/abs/2605.07422"
+    },
+    {
+      "abstract": "AI-based systems, currently driven largely by LLMs and tool-using agentic harnesses, are increasingly discussed as a possible threat to software engineering. Foundation models get stronger, agents can plan and act across multiple steps, and tasks such as scaffolding, routine test generation, straightforward bug fixing, and small integration work look more exposed than they did only a few years ago. The result is visible unease not only among students and junior developers, but also among experienced practitioners who worry that hard-won expertise may lose value. This paper argues for a different reading. The important shift is not that software engineering loses relevance. It is that the thing being engineered expands beyond executable code to semi-executable artifacts; combinations of natural language, tools, workflows, control mechanisms, and organizational routines whose enactment depends on human or probabilistic interpretation rather than deterministic execution. The Semi-Executable Stack is introduced as a six-ring diagnostic reference model for reasoning about that expansion, spanning executable artifacts, instructional artifacts, orchestrated execution, controls, operating logic, and societal and institutional fit. The model helps locate where a contribution, bottleneck, or organizational transition primarily sits, and which adjacent rings it depends on. The paper develops the argument through three worked cases, reframes familiar objections as engineering targets rather than reasons to dismiss the transition, and closes with a preserve-versus-purify heuristic for deciding which legacy software engineering processes, controls, and coordination routines should be kept and which should be simplified or redesigned. This paper is a conceptual keynote companion: diagnostic and agenda-setting rather than empirical.",
+      "arxiv_id": "2604.15468",
+      "authors": [
+        "Robert Feldt",
+        "Per Lenberg",
+        "Julian Frattini",
+        "Dhasarathy Parthasarathy"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2604.15468",
+      "pdf_url": "https://arxiv.org/pdf/2604.15468",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-04-16",
+      "read_scope": "abstract",
+      "reason": "排除：概念性 keynote，提出 Semi-Executable Stack 诊断模型，未涉及具体 Coding Agent 系统架构、训练范式或国内仓库级实践；作者团队非国内机构，与本次调研核心相关性弱。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
+      "url": "https://arxiv.org/abs/2604.15468"
+    },
+    {
+      "abstract": "Large language models (LLMs) have demonstrated strong performance on a wide range of software engineering tasks, including code generation and analysis. However, most prior work relies on cloud-based models or specialized hardware, limiting practical applicability in privacy-sensitive or resource-constrained environments. In this paper, we present a systematic empirical evaluation of two locally deployed LLMs, LLaMA 3.2 and Mistral, for real-world Python bug detection using the BugsInPy benchmark. We evaluate 349 bugs across 17 projects using a zero-shot prompting approach at the function level and an automated keyword-based evaluation framework. Our results show that locally executed models achieve accuracy between 43% and 45%, while producing a large proportion of partially correct responses that identify problematic code regions without pinpointing the exact fix. Performance varies significantly across projects, highlighting the importance of codebase characteristics. The results demonstrate that local models can identify a meaningful share of bugs, though precise localization remains difficult for locally executed LLMs, particularly when handling complex and context dependent bugs in realistic development scenarios.",
+      "arxiv_id": "2604.23361",
+      "authors": [
+        "Jelena Ilić Vulićević"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2604.23361",
+      "pdf_url": "https://arxiv.org/pdf/2604.23361",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-04-25",
+      "read_scope": "abstract",
+      "reason": "排除：评估本地部署 LLM 的 Python bug 检测，属于 LLM 辅助缺陷定位，非 Coding Agent 系统架构/训练范式，也未体现国内机构或中文开发场景，相关性有限。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "An Empirical Evaluation of Locally Deployed LLMs for Bug Detection in Python Code",
+      "url": "https://arxiv.org/abs/2604.23361"
+    },
+    {
+      "abstract": "SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. However, our analysis work show that its evaluation is undermined by two sources of unreliability: reward hacking, enabled by leakage of gold solutions or hidden evaluation information, and task quality issues, including misleading problem statements and improperly scoped tests. These issues can inflate benchmark performance and obscure agents' true coding ability. We present SWE-Bench Pro Verified, a verified version of SWE-Bench Pro that addresses both problems. Our approach combines anti-hacking safeguards that eliminate major leakage channels without disrupting normal agent functionality, with task refinement that minimally corrects inconsistencies within flawed instances. Evaluations on SWE-Bench Pro Verified reveal that some models perform substantially worse than previously evaluated, suggesting that existing results on SWE-Bench Pro may overestimate real software engineering capability. SWE-Bench Pro Verified offers a more trustworthy benchmark for assessing software engineering agents.",
+      "arxiv_id": "2609.08149",
+      "authors": [
+        "Pujun Zheng",
+        "Zixin Shang",
+        "Shufan Jiang",
+        "Wenhui Tian",
+        "Dongsheng Zhu",
+        "Zerun Ma",
+        "Dingbo Yuan",
+        "Qi Zhang"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "download_url": "https://arxiv.org/pdf/2609.08149",
+      "id": "2609.08149",
+      "pdf_url": "https://arxiv.org/pdf/2609.08149",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-09-08",
+      "read_scope": "abstract",
+      "reason": "入选：针对 SWE-Bench Pro 的奖励黑客与任务质量问题提出验证版基准，直接关联 Coding Agent 的 SWE 类基准评测与真实能力评估，作者团队疑似国内机构，是本次国内 Coding Agent 评测方向的核心候选。",
+      "selected": true,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+      "url": "https://arxiv.org/abs/2609.08149"
+    },
+    {
+      "abstract": "Reinforcement learning (RL) research has demonstrated success in both physical and simulated domains; however, the predominant methodology remains rooted in simulations. The predominance of simulations makes translating research to physical reality uncertain for both algorithms and researchers. We propose a physical platform that is designed to simplify the transition. In this paper, we present the Open Ant: a physical variant of the commonly used Gymnasium Ant environment, along with a simulation. We demonstrate that competent walking policies can be learned from scratch in approximately one hour directly from the physical robot's experience for two substantially different RL algorithms: SARSA($λ$) and Soft Actor-Critic (SAC). Separately, we show policies that were learned in simulation transfer to reality. We also examine how well the platform supports a nimble experimental ecosystem. Specifically, we observe the speed with which new users from diverse backgrounds achieve their first success with the platform, and how easily the platform can be repaired and updated when hardware issues arise. Both the hardware design and software are available as open-source on GitHub for ease of customization. In summary, we advocate for the use of the Open Ant for RL researchers who frequently use simulated environments, so they can more easily include robot experiments in their evaluations.",
+      "arxiv_id": "2607.18488",
+      "authors": [
+        "Elena Sorina Lupu",
+        "Patrick Spieler",
+        "Khurram Javed",
+        "Kris De Asis",
+        "John D. Martin",
+        "Martha Steenstrup",
+        "Joseph Modayil"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2607.18488",
+      "pdf_url": "https://arxiv.org/pdf/2607.18488",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-07-20",
+      "read_scope": "abstract",
+      "reason": "排除：强化学习机器人平台，与 Coding Agent 主题完全无关。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "The Open Ant: A Robot Platform for Reinforcement Learning Research",
+      "url": "https://arxiv.org/abs/2607.18488"
+    },
+    {
+      "abstract": "Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery speed, courier utilization, and merchant congestion. We present a deployed reinforcement learning system at DoorDash that adapts dispatch objective weights in a large-scale food-delivery marketplace using delayed signals. Rather than replacing the combinatorial assignment optimizer, a store-level policy learned from logged marketplace data selects a discrete multiplier that shifts the dispatch optimizer's tradeoff between delivery quality and batching efficiency. This interface enables offline policy learning under noisy, delayed, and coupled feedback while preserving production feasibility constraints and operational safeguards. We train a shared value function using centralized offline data and decentralized store-level execution, with Double Q-learning targets and a conservative regularizer to reduce out-of-distribution value overestimation. In a production switchback experiment, the offline-trained policy increases batching and reduces courier-side time costs without degrading customer-facing delivery quality. Results illustrate how world feedback from a live economic and logistics system can be used to safely adapt decision policies online.",
+      "arxiv_id": "2606.13604",
+      "authors": [
+        "Haochen Wu",
+        "Yi Hou",
+        "Shiguang Xie"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2606.13604",
+      "pdf_url": "https://arxiv.org/pdf/2606.13604",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-06-11",
+      "read_scope": "abstract",
+      "reason": "排除：三边市场派送的强化学习系统，属于运营优化，与 Coding Agent 主题无关。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch",
+      "url": "https://arxiv.org/abs/2606.13604"
+    },
+    {
+      "abstract": "Large Language Models (LLMs) are powerful but limited by static parametric knowledge that becomes outdated once pretraining ends. Knowledge editing addresses this problem by updating model behavior on target facts without full retraining. In particular, in-context knowledge editing has gained attention because it is training-free and readily applicable to black-box LLMs. Recent reinforcement learning (RL)-based approaches improve over fixed retrieval strategies by adapting prompt construction to the quantity-quality trade-off. Despite initial success, they fail to model the prompt as a structured entity under the distinct and often competing objectives of reliability, generality, and specificity. Previous methods largely optimize a single objective and make decisions over only part of the prompt construction process, thereby overlooking both the balance of different objectives and the global organization of demonstrations. We propose Multi-Objective In-context Knowledge Editing (MO-IKE), a multi-objective RL algorithm that formulates prompt construction for in-context knowledge editing as a Constrained Markov Decision Process. MO-IKE trains a dynamic retriever to optimize competing objectives in knowledge editing, enabling more balanced and globally coherent prompt construction. On Llama-3.2, MO-IKE improves edit success (reliability) from 85.0% to 92.0%, paraphrase consistency (generality) from 77% to 79%, while increasing retention rate (specificity) by 23.0% compared to prior RL-based methods.",
+      "arxiv_id": "2608.25100",
+      "authors": [
+        "Xuzhong Wang",
+        "Maiqi Jiang",
+        "Tejal Nair",
+        "Girija Bhusal",
+        "Yanfu Zhang",
+        "Haipeng Chen"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2608.25100",
+      "pdf_url": "https://arxiv.org/pdf/2608.25100",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-08-25",
+      "read_scope": "abstract",
+      "reason": "排除：上下文知识编辑的多目标强化学习，与 Coding Agent 主题无关。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Towards Reliable, Generalizable, and Specific In-Context Knowledge Editing via Multi-Objective Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.25100"
+    },
+    {
+      "abstract": "Training-free verbal reinforcement learning enables LLM agents to learn from world feedback -- objective signals such as dynamic task outcomes, market returns, or demand forecasts -- by extracting verbal rules from experience and injecting them as context, updating the agent's behavior without parameter changes. However, in non-stationary environments these agents face a retention-forgetting dilemma: retaining stale insights causes negative transfer, while discarding them causes catastrophic forgetting when conditions recur. We identify four requirements for navigating this dilemma -- outcome-driven evaluation, persistent structured evidence, non-monotonic knowledge lifecycle, and compositional governance -- and show that existing methods invest heavily in experience extraction while underinvesting in insight governance. We propose a three-layer architecture -- rules, evidence, and skills -- connected by a feedback-driven curation loop that closes the governance gap. Rules capture distilled experience from world outcomes; evidence logs track each rule's reliability across episodes; skills govern which rules to apply, how to resolve conflicts, and when to abstain. On financial forecasting as a case study, where world feedback is naturally abundant, noisy, and non-stationary, we show that the same accumulated experience either degrades performance below the zero-shot baseline or dramatically improves accuracy and risk-adjusted returns, depending on whether the curation loop is present.",
+      "arxiv_id": "2606.17591",
+      "authors": [
+        "Yanwei Cui",
+        "Xing Zhang",
+        "Yulong Zhang",
+        "Li Shao",
+        "Xiaofeng Shi",
+        "Guanghui Wang",
+        "Peiyang He"
+      ],
+      "date_status": "within_range",
+      "doi": "",
+      "id": "2606.17591",
+      "pdf_url": "https://arxiv.org/pdf/2606.17591",
+      "publication_status": "arXiv 预印本；正式发表状态未核验",
+      "published": "2026-06-16",
+      "read_scope": "abstract",
+      "reason": "排除：语言强化学习中的经验抽取与洞察治理，以金融预测为例，与 Coding Agent 无关。",
+      "selected": false,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Closing the Feedback Loop: From Experience Extraction to Insight Governance in Verbal Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.17591"
+    }
+  ],
+  "selected_count": 3,
+  "warnings": []
+}

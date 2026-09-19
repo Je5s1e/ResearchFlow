@@ -1,6 +1,9 @@
-from typing import Literal, TypedDict
+from typing import Literal
 
 from pydantic import BaseModel, Field, model_validator
+
+# Compatibility for existing imports; the workflow owns its persisted state.
+from researchflow.workflow.state import State as State
 
 
 class Plan(BaseModel):
@@ -73,29 +76,3 @@ class Decision(BaseModel):
         if self.action == "revise" and not self.feedback.strip():
             raise ValueError("修改必须填写反馈")
         return self
-
-
-class State(TypedDict, total=False):
-    session_id: str
-    request: str
-    stage: str
-    feedback: str
-    revision_target: str
-    rounds: int
-    plan: dict
-    plan_version: int
-    plan_refs: list[dict]
-    plan_request_id: str
-    approvals: list[dict]
-    task: dict
-    messages: list[dict]
-    papers: list[dict]
-    evidence: list[dict]
-    search_refs: list[dict]
-    search_round: int
-    material: dict
-    material_version: int
-    material_refs: list[dict]
-    material_request_id: str
-    report: dict
-    report_refs: list[dict]

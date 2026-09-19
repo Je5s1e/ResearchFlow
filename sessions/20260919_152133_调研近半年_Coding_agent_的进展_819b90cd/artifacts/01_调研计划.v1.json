@@ -1,0 +1,24 @@
+{
+  "candidate_limit": 30,
+  "date_from": "2026-03-19",
+  "date_to": "2026-09-19",
+  "focus": [
+    "Coding Agent 的系统架构与训练范式（SFT、RL、工具调用与执行反馈）",
+    "仓库级代码理解、跨文件修改与长上下文处理",
+    "软件工程任务表现：bug 修复、功能实现、测试生成与 SWE 类基准",
+    "Agent 自主性提升：规划、自我调试、迭代验证与多智能体协作",
+    "评测基准、安全性与现有方法的局限及未来方向"
+  ],
+  "language": "中文",
+  "paper_limit": 10,
+  "queries": [
+    "coding agent large language model software engineering",
+    "LLM agent repository-level code generation and bug fixing",
+    "software engineering agent benchmark SWE-bench evaluation",
+    "agentic code editing tool use execution feedback reinforcement learning",
+    "multi-agent collaboration automated program repair and debugging"
+  ],
+  "report_requirement": "约 3000–5000 中文字；覆盖近半年研究方向与代表性工作、方法对比（架构、训练范式、工具使用、评测方式）、关键进展、局限与未来趋势，并附文献要点对照",
+  "scholar_supplement": false,
+  "topic": "近半年 Coding Agent（代码智能体）研究进展调研"
+}
